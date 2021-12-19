@@ -14,7 +14,7 @@ class Product( models.Model ):
     modified_date = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.name
+        return self.product_name
 
 
 
